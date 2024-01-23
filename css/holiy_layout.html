@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            border: 1px solid gray;
+        }
+        header{
+              border-bottom: 1px solid gray;
+                padding-left: 20px;
+                text-align: center;
+             }
+        footer{
+            border-top: 1px solid gray;
+            padding: 20px;
+            text-align: center;
+        }
+        .content{
+            display: flex;
+        }
+        .content nav{
+            
+            border-right: 1px solid gray;
+        }
+        .content aside{ 
+            border-left: 1px solid gray;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+        main{
+            padding: 10px;
+        }
+        nav{
+            order: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NAVER</h1>
+        </header>
+        <section class="content"> 
+            <nav>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>Javascript</li>
+                </ul>
+            </nav>
+            <main>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, porro cupiditate laudantium iure voluptatum, sit nulla doloremque dolor mollitia repellat, possimus laboriosam asperiores. Eos mollitia maiores est autem voluptas sapiente. Voluptatem cum nihil dolorum quo natus quam enim. Ipsum, hic. Sed aliquam minus commodi officiis, dolor autem, iusto, facere dignissimos et ducimus nam. Sed similique tenetur quo minima illum alias aspernatur debitis temporibus. Nobis distinctio cupiditate ipsa deleniti. Placeat facilis ut fugiat. Maiores voluptas blanditiis cupiditate culpa deleniti, nemo in perspiciatis quaerat consectetur adipisci quam, sed voluptate saepe exercitationem quas ipsam ab inventore temporibus? Praesentium laudantium unde temporibus doloremque ipsa. 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, porro cupiditate laudantium iure voluptatum, sit nulla doloremque dolor mollitia repellat, possimus laboriosam asperiores. Eos mollitia maiores est autem voluptas sapiente. Voluptatem cum nihil dolorum quo natus quam enim. Ipsum, hic. Sed aliquam minus commodi officiis, dolor autem, iusto, facere dignissimos et ducimus nam. Sed similique tenetur quo minima illum alias aspernatur debitis temporibus. Nobis distinctio cupiditate ipsa deleniti. Placeat facilis ut fugiat. Maiores voluptas blanditiis cupiditate culpa deleniti, nemo in perspiciatis quaerat consectetur adipisci quam, sed voluptate saepe exercitationem quas ipsam ab inventore temporibus? Praesentium laudantium unde temporibus doloremque ipsa.
+                </p>
+            </main>
+            <aside>
+                <ul>
+                  <li>
+                    AD
+                </li>  
+                </ul>
+                
+            </aside>
+        </section>
+        <footer>
+            <a href="https://naver.com">홈페이지</a>
+        </footer>
+    </div>
+</body>
+</html>
